@@ -1,3 +1,17 @@
+/*
+---
+description: The Socket wrapper provides a unified API for creating and managing a WebSocket connection to a server, as well as for sending and receiving data on the connection.
+
+license: MIT-style
+
+authors:
+- Ivo von Putzer
+
+provides: [Socket]
+
+...
+*/
+
 var WebSocket = WebSocket || webkitWebSocket || mozWebSocket
 
 var Socket = new Class({

@@ -1,11 +1,11 @@
-Mootools-Socket
+Mootools Socket
 =====
 
 The `Socket` wrapper provides a unified API for creating and managing a WebSocket connection to a server, as well as for sending and receiving data on the connection.
 
 
-Creating a Socket object
-=====
+How to use
+----------
 
 In order to communicate using the WebSocket protocol, you need to create a WebSocket object; this will automatically attempt to open the connection to the server.
 
