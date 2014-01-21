@@ -10,6 +10,7 @@ var Socket = new Class({
     parseJson: true,
     reconnectTimeout: 2500,
     events: {
+      /*
       onOpen: function () {
         console.log('Socket -- Connected to websocket server at %s', this.url)
       },
@@ -25,6 +26,7 @@ var Socket = new Class({
       onUnload: function () {
         console.log('Socket -- User is being disconnected')
       }
+      */
     }
   },
 
